@@ -1,0 +1,24 @@
+{"Name": "Depression test Probably",
+"Questions": [{
+    "id": "Q1",
+    "Question": "Copy & Paste This",
+    "Choices": ["Never", "Rarely", "Often", "Usually / Always"]
+}],
+"Results": {"Depression": ["Not Depressed", "Moderately Depressed", "Highly Depressed"],
+    "Anxiety": ["Not Anxious", "Moderately Anxious", "Highly Anxious"],
+    "Stress": ["Not Stressed", "Slightly Stressed", "Moderately Stressed", "Highly Stressed"]},
+"Confirmation": [{
+    "id": "Qactual1",
+    "Question": "Are you actually depressed ?",
+    "Choices": ["Not Depressed", "Moderately Depressed", "Highly Depressed"]
+}, {
+    "id": "Qactual2",
+    "Question": "Are you actually Anxious ?",
+    "Choices": ["Not Anxious", "Moderately Anxious", "Highly Anxious"]
+}, {
+    "id": "Qactual3",
+    "Question": "Are you actually Stressed ?",
+    "Choices": ["Not Stressed", "Slightly Stressed", "Moderately Stressed", "Highly Stressed"]
+}],
+"Comments": "Confirmation for using the result to make a new test case"
+}
